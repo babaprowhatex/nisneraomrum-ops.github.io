@@ -1,0 +1,6 @@
+window.onload = () => {
+  loadSong();
+  audio.play().catch(() => {
+    console.log("Tarayıcı otomatik çalmayı engelledi");
+  });
+};
